@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NowPlaying when it renders matches snapshot 1`] = `
+<div
+  className="now-playing-container"
+>
+  <div
+    className="now-playing-image-container"
+  >
+    <img
+      alt="Yup, Still More Fake Songs"
+      className="now-playing-image"
+      src="https://image.com/yup-still-more-fake-songs"
+    />
+  </div>
+  <div
+    className="now-playing-title-container"
+  >
+    <div
+      className="now-playing-title"
+    >
+      Yup, Still More Fake Songs
+    </div>
+  </div>
+  <div
+    className="now-playing-audio-container"
+  >
+    <button
+      className="prev-button"
+      onClick={[Function]}
+    >
+      <img
+        alt="Previous Song"
+        src="skip_previous.svg"
+      />
+    </button>
+    <audio
+      autoPlay={true}
+      controls={true}
+      onEnded={[Function]}
+      src="https://media.com/yup-still-more-fake-songs"
+    >
+      <source
+        src="https://media.com/this-is-a-fake-song"
+        type="audio/mp4"
+      />
+      <source
+        src="https://media.com/also-a-mock-song"
+        type="audio/mp4"
+      />
+      <source
+        src="https://media.com/yup-still-more-fake-songs"
+        type="audio/mp4"
+      />
+    </audio>
+    <button
+      className="next-button"
+      onClick={[Function]}
+    >
+      <img
+        alt="Next Song"
+        src="skip_next.svg"
+      />
+    </button>
+  </div>
+</div>
+`;

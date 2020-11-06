@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioProvider when data has loaded matches snapshot 1`] = `
+<Context.Provider
+  value={
+    Object {
+      "nowPlayingIndex": 0,
+      "setNowPlayingIndex": [Function],
+      "tracks": Array [
+        Object {
+          "duration": 10000,
+          "imageUrl": "https://image.com/this-is-a-fake-song",
+          "mediaUrl": "https://media.com/this-is-a-fake-song",
+          "title": "This is a Fake Song",
+        },
+        Object {
+          "duration": 10000,
+          "imageUrl": "https://image.com/also-a-mock-song",
+          "mediaUrl": "https://media.com/also-a-mock-song",
+          "title": "Also a Mock Song",
+        },
+        Object {
+          "duration": 10000,
+          "imageUrl": "https://image.com/yup-still-more-fake-songs",
+          "mediaUrl": "https://media.com/yup-still-more-fake-songs",
+          "title": "Yup, Still More Fake Songs",
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`AudioProvider when loading matches snapshot 1`] = `
+<div
+  className="loading"
+>
+  <img
+    alt="loading"
+    className="loading-icon"
+    src="loading.svg"
+  />
+</div>
+`;

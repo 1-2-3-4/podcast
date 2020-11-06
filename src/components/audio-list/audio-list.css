@@ -1,0 +1,59 @@
+.track-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #272727;
+  padding: 20px;
+  -webkit-box-shadow: inset -5px -5px 10px #202020, inset 5px 5px 10px #202020;
+          box-shadow: inset -5px -5px 10px #202020, inset 5px 5px 10px #202020;
+}
+
+.track-item:hover {
+  cursor: pointer;
+  background-color: #202020;
+}
+
+.track-item-now-playing {
+  background-color: #f2f2f2;
+  -webkit-box-shadow: inset -5px -5px 10px #c2c2c2, inset 5px 5px 10px #c2c2c2;
+          box-shadow: inset -5px -5px 10px #c2c2c2, inset 5px 5px 10px #c2c2c2;
+  position: relative;
+}
+
+.track-item-now-playing:hover {
+  background-color: #ffffff;
+}
+
+.track-text {
+  margin-left: 15px;
+  font-family: Helvetica, sans-serif;
+}
+
+.track-title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #e2e2e2;
+}
+
+.track-title-now-playing {
+  color: #565656;
+}
+
+.track-image {
+  width: 50px;
+}
+
+.track-metadata {
+  font-size: 12px;
+  color: #9c9c9c;
+}
+
+.track-metadata-now-playing {
+  color: #838383;
+}

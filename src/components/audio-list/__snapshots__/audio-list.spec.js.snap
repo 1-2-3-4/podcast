@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AudioList when it renders matches snapshot 1`] = `
+<React.Fragment>
+  <div
+    className="track-item"
+    data-testid="track-item"
+    onClick={[Function]}
+  >
+    <img
+      alt="This is a Fake Song"
+      className="track-image"
+      src="https://image.com/this-is-a-fake-song"
+    />
+    <div
+      className="track-text"
+    >
+      <div
+        className="track-title"
+      >
+        This is a Fake Song
+      </div>
+      <div
+        className="track-metadata"
+      >
+        00:10
+      </div>
+    </div>
+  </div>
+  <div
+    className="track-item"
+    data-testid="track-item"
+    onClick={[Function]}
+  >
+    <img
+      alt="Also a Mock Song"
+      className="track-image"
+      src="https://image.com/also-a-mock-song"
+    />
+    <div
+      className="track-text"
+    >
+      <div
+        className="track-title"
+      >
+        Also a Mock Song
+      </div>
+      <div
+        className="track-metadata"
+      >
+        00:10
+      </div>
+    </div>
+  </div>
+  <div
+    className="track-item track-item-now-playing"
+    data-testid="track-item"
+    onClick={[Function]}
+  >
+    <img
+      alt="Yup, Still More Fake Songs"
+      className="track-image"
+      src="https://image.com/yup-still-more-fake-songs"
+    />
+    <div
+      className="track-text"
+    >
+      <div
+        className="track-title track-title-now-playing"
+      >
+        Yup, Still More Fake Songs
+      </div>
+      <div
+        className="track-metadata track-title-now-playing"
+      >
+        00:10
+      </div>
+    </div>
+  </div>
+</React.Fragment>
+`;

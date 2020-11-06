@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App when it renders matches snapshot 1`] = `
+<React.Fragment>
+  <nav
+    className="app-nav"
+  >
+    <h1>
+      Playlist
+    </h1>
+  </nav>
+  <div
+    className="app-container"
+  >
+    <AudioProvider>
+      <NowPlaying />
+      <AudioList />
+    </AudioProvider>
+  </div>
+</React.Fragment>
+`;
